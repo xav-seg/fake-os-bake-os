@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake-O's Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Find Us</a></li>
+                <li><a href="order.html">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="order" class="order-section">
+        <div class="section-content">
+            <h2>Order Your Favorites</h2>
+            <form action="submit-order.html" method="POST">
+                <div class="menu-category">
+                    <h3>Coffee Drinks</h3>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="coffee[]" value="Espresso"> Espresso - $2.50
+                                <input type="number" name="coffee_qty[Espresso]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="coffee[]" value="Latte"> Latte - $3.50
+                                <input type="number" name="coffee_qty[Latte]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="coffee[]" value="Cappuccino"> Cappuccino - $3.00
+                                <input type="number" name="coffee_qty[Cappuccino]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="coffee[]" value="Americano"> Americano - $2.75
+                                <input type="number" name="coffee_qty[Americano]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="coffee[]" value="Mocha"> Mocha - $3.75
+                                <input type="number" name="coffee_qty[Mocha]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="coffee[]" value="Iced Coffee"> Iced Coffee - $2.50
+                                <input type="number" name="coffee_qty[Iced Coffee]" min="0" value="1">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu-category">
+                    <h3>Sandwiches</h3>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="sandwich[]" value="Classic BLT"> Classic BLT - $5.50
+                                <input type="number" name="sandwich_qty[Classic BLT]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="sandwich[]" value="Turkey & Swiss"> Turkey & Swiss - $6.00
+                                <input type="number" name="sandwich_qty[Turkey & Swiss]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="sandwich[]" value="Veggie Delight"> Veggie Delight - $5.00
+                                <input type="number" name="sandwich_qty[Veggie Delight]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="sandwich[]" value="Grilled Cheese"> Grilled Cheese - $4.50
+                                <input type="number" name="sandwich_qty[Grilled Cheese]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="sandwich[]" value="Chicken Salad Sandwich"> Chicken Salad Sandwich - $6.50
+                                <input type="number" name="sandwich_qty[Chicken Salad Sandwich]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="sandwich[]" value="Ham & Cheese"> Ham & Cheese - $5.75
+                                <input type="number" name="sandwich_qty[Ham & Cheese]" min="0" value="1">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu-category">
+                    <h3>Desserts</h3>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="dessert[]" value="Chocolate Chip Cookie"> Chocolate Chip Cookie - $1.50
+                                <input type="number" name="dessert_qty[Chocolate Chip Cookie]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="dessert[]" value="Cinnamon Roll"> Cinnamon Roll - $2.50
+                                <input type="number" name="dessert_qty[Cinnamon Roll]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="dessert[]" value="Brownie"> Brownie - $2.00
+                                <input type="number" name="dessert_qty[Brownie]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="dessert[]" value="Cheesecake"> Cheesecake - $3.50
+                                <input type="number" name="dessert_qty[Cheesecake]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="dessert[]" value="Cupcake"> Cupcake - $2.75
+                                <input type="number" name="dessert_qty[Cupcake]" min="0" value="1">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="dessert[]" value="Fruit Tart"> Fruit Tart - $3.00
+                                <input type="number" name="dessert_qty[Fruit Tart]" min="0" value="1">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="checkout">
+                    <p>Once you're done selecting, proceed to checkout.</p>
+                    <button type="submit" class="order-btn">Complete Your Order</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>111111 Main Street, Jacksonville FL 33616</p>
+        <p>(904) 123-4567 &nbsp;&nbsp;&nbsp;6AM to 6PM&nbsp;&nbsp;&nbsp;Closed Saturdays</p>
+        
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
